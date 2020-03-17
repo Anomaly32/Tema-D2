@@ -20,7 +20,8 @@ public:
 	void citire();
 	void afisare();
 
-	// Este specificat ca operatorii de mai jos sa fie realizati prin intermediul functiilor friend
+	// Este specificat in cerinta exercitiului ca operatorii de mai jos sa fie realizati prin intermediul functiilor friend!
+	
 	friend Complex operator+(const Complex z1, const Complex z2);
 	friend Complex operator+(const double z1, const Complex z2);
 	friend Complex operator+(const Complex z1, const double z2);
