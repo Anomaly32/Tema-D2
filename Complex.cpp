@@ -58,6 +58,8 @@ void Complex::afisare()
 	cout << endl;
 }
 
+// Este specificat in cerinta exercitiului ca operatorii de mai jos sa fie realizati prin intermediul functiilor friend!
+
 // OPERATORUL +
 Complex operator +(const Complex z1, const Complex z2)
 {
